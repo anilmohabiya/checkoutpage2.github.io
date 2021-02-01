@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+p.b { 
+  word-spacing: 30px;
+  padding-left: 10%;
+}
+
+
+p .vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+.vl{
+  
+  border-left: 6px solid black;
+  height: 50px;
+}
+
+.new4{
+  
+  border: 1px solid red;
+  width: 50px;
+}
+
+
+.cont{
+  list-style: none;
+}
+
+.cont li{
+  display: inline-block;
+  padding: 0px 5px;
+  justify-content:center;
+
+}
+
+hr.new3 {
+  border-top: 1px dotted red;
+ margin-top: 3rem;
+}
+
+/* try css */
+
+.post-container{
+  margin: 20px 20px 0 0;  
+  width:600px;
+  overflow:hidden;
+}
+
+.post-thumb img {
+  float: left;
+  clear:left;
+  width:100px;
+  height:100px;
+  border:1px solid rgb(156, 146, 146);
+}
+
+.post-title {
+   float:left;   
+  margin-left:10px;
+  font-weight: bold;
+}
+
+/* right side of image of orderpage2  */
+
+
+.post-right img {
+  float: left;
+  clear:left;
+  width:70px;
+  height:70px;
+  border:1px solid rgb(156, 146, 146);
+}
+
+.post-name {
+  float:left;   
+ margin-left:10px;
+}
+
+
+.title-right {
+  float: right;
+}
+
+
+
